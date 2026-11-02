@@ -1,6 +1,8 @@
-import HeroScene from './HeroScene'
+import { lazy, Suspense } from 'react'
 import ScrambleText from './ScrambleText'
 import { personalInfo } from '../data/portfolioData'
+
+const HeroScene = lazy(() => import('./HeroScene'))
 
 export default function Hero() {
   return (
@@ -11,7 +13,7 @@ export default function Hero() {
             <ScrambleText text={`// HUD SYSTEM ONLINE · ${personalInfo.city}`} trigger="mount" />
           </div>
           <h1 className="text-[clamp(2.5rem,6vw,5.5rem)] font-bold leading-[0.98] tracking-[-0.03em] text-bone mb-6">
-            {personalInfo.name}
+            <ScrambleText text={personalInfo.name} as="span" trigger="mount" delay={150} />
           </h1>
           <p className="font-mono text-sm md:text-base uppercase tracking-[0.2em] text-signal mb-6">
             {personalInfo.role}
@@ -36,7 +38,15 @@ export default function Hero() {
         </div>
 
         <div className="relative aspect-square max-w-[500px] w-full mx-auto lg:ml-auto h-[380px] md:h-[500px]">
-          <HeroScene />
+          <Suspense
+            fallback={
+              <div className="w-full h-full hud-grid flex items-center justify-center font-mono text-xs text-dim">
+                LOADING 3D CORE...
+              </div>
+            }
+          >
+            <HeroScene />
+          </Suspense>
         </div>
       </div>
     </section>
