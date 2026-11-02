@@ -4,6 +4,7 @@ export const personalInfo = {
   brandName: 'PAVITHRA.N',
   city: 'Bangalore',
   email: 'nerellapavithra2005-prog@example.com',
+  phone: '+91 98765 43210',
 }
 
 export const academy = {
@@ -82,5 +83,42 @@ export const projects = [
     tags: ['SQL', 'Advanced Excel', 'Power BI', 'KPI Scorecards'],
     liveUrl: 'https://github.com/nerellapavithra2005-prog',
     codeUrl: 'https://github.com/nerellapavithra2005-prog/logistics-delay-tracker',
+  },
+]
+
+export const socialLinks = [
+  { label: 'GitHub', url: 'https://github.com/nerellapavithra2005-prog' },
+  { label: 'LinkedIn', url: 'https://linkedin.com' },
+  { label: 'Instagram', url: '' },
+]
+
+export const contactContent = {
+  label: '04 / Contact',
+  heading: 'Let’s build something data-driven together.',
+  note: 'Looking for a dedicated Data Analyst to turn complex data into strategic growth? My inbox is always open for opportunities and conversations.',
+}
+
+export const emailjsConfig = {
+  serviceId: 'YOUR_EMAILJS_SERVICE_ID',
+  templateId: 'YOUR_EMAILJS_TEMPLATE_ID',
+  publicKey: 'YOUR_EMAILJS_PUBLIC_KEY',
+}
+
+export const journeySteps = [
+  {
+    period: '2025 — PRESENT',
+    role: 'Full-Stack Data Analytics & Placement Trainee',
+    organization: 'TAP Academy',
+    location: 'Bangalore, India',
+    description:
+      'Comprehensive placement training covering relational database architecture, advanced SQL querying, Python data science pipelines, and interactive Power BI business dashboards.',
+  },
+  {
+    period: '2021 — 2025',
+    role: 'Bachelor of Technology',
+    organization: 'Undergraduate Studies',
+    location: 'India',
+    description:
+      'Core foundation in computer systems, relational database management, data structures, and statistical modeling.',
   },
 ]
