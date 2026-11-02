@@ -1,10 +1,10 @@
 export const personalInfo = {
   name: 'Nerella Pavithra',
-  role: 'Data Analyst',
+  role: 'Data Analyst & Software Engineer',
   brandName: 'PAVITHRA.N',
-  city: 'Bangalore',
-  email: 'nerellapavithra2005-prog@example.com',
-  phone: '+91 98765 43210',
+  city: 'Hyderabad / Bangalore',
+  email: 'nerellapavithra2005@gmail.com',
+  phone: '+91 79817 85245',
 }
 
 export const academy = {
@@ -26,88 +26,78 @@ export const footerContent = {
 
 export const aboutContent = {
   label: '01 / About',
-  heading: 'Transforming complex raw data into clear, decisive business intelligence.',
+  heading: 'Transforming complex data and algorithms into secure, intelligent solutions.',
   paragraph:
-    'I am an aspiring Data Analyst based in Bangalore, currently completing rigorous placement training at TAP Academy. My focus centers on architecting clean SQL queries, performing exploratory data analysis in Python, and designing interactive Power BI dashboards that translate multi-dimensional datasets into strategic business growth.',
+    'I am a Computer Engineering student (B.E. CGPA: 8.26) and aspiring Data Analyst undergoing placement training at TAP Academy. My hands-on experience covers data extraction with MySQL, exploratory analysis with Python, Pandas, and NumPy, and interactive dashboarding in Power BI and Excel, alongside deep learning systems for threat detection.',
   stats: [
-    { value: 15, suffix: '+', label: 'Dashboards & Models' },
-    { value: 98, suffix: '%', label: 'Query Accuracy' },
-    { value: 50, suffix: 'K+', label: 'Records Analyzed' },
+    { value: 8, suffix: '.26', label: 'B.E. CGPA' },
+    { value: 98, suffix: '%', label: 'Query & Model Accuracy' },
+    { value: 10, suffix: '+', label: 'Dashboards & Projects' },
   ],
 }
 
 export const skillGroups = [
   {
     title: 'Database & SQL',
-    skills: ['PostgreSQL', 'MySQL', 'Complex Joins', 'Window Functions', 'Query Optimization'],
+    skills: ['MySQL', 'SQL Queries', 'Data Extraction', 'Filtering & Aggregation', 'Joins'],
   },
   {
-    title: 'Python & Data Science',
-    skills: ['Python', 'Pandas', 'NumPy', 'Data Cleaning', 'Matplotlib'],
+    title: 'Python & Data Analytics',
+    skills: ['Python', 'Pandas', 'NumPy', 'Data Cleaning', 'Exploratory Analysis (EDA)'],
   },
   {
-    title: 'BI & Visualization',
-    skills: ['Power BI', 'DAX Measures', 'Data Modeling', 'KPI Cards', 'Advanced Excel'],
+    title: 'BI & Reporting',
+    skills: ['Power BI', 'Advanced Excel', 'Interactive Dashboards', 'Trend Analysis', 'KPI Scorecards'],
   },
   {
-    title: 'Analytics & Strategy',
-    skills: ['Cohort Analysis', 'Churn Identification', 'ETL Pipelines', 'Business Metrics', 'Statistical Modeling'],
+    title: 'Engineering & Deep Learning',
+    skills: ['Object-Oriented Programming (OOP)', 'Data Structures', 'Transformers', 'FastAPI', 'ONNX', 'Electron'],
   },
 ]
 
 export const projects = [
   {
     id: 'project-1',
-    title: 'PulseAnalytics Intelligence HUD',
-    year: '2026',
+    title: 'AgeLock: Privacy-Preserving Browser',
+    year: '2025',
     description:
-      'Executive customer intelligence and sales performance dashboard that segments customer churn cohorts, tracks retention KPIs in real time, and identifies revenue leaks across sales regions.',
-    tags: ['SQL', 'Python', 'Power BI', 'DAX', 'Cohort Analysis'],
+      'A privacy-first desktop browser developed using Electron, HTML5, CSS3, and JavaScript featuring on-device age-based content filtering for children, teens, and adults. Incorporates Regex-based keyword filtering, URL classification, DOM analysis, SafeSearch integration, and local PIN-based access control.',
+    tags: ['Electron', 'JavaScript', 'HTML5/CSS3', 'SafeSearch', 'DOM Analysis', 'Regex'],
     liveUrl: 'https://github.com/nerellapavithra2005-prog',
-    codeUrl: 'https://github.com/nerellapavithra2005-prog/pulse-analytics',
+    codeUrl: 'https://github.com/nerellapavithra2005-prog',
   },
   {
     id: 'project-2',
-    title: 'OmniRetail Market Basket Insights',
-    year: '2026',
+    title: 'Transformer Hybrid Phishing Detection',
+    year: '2025',
     description:
-      'Association rule mining and sales affinity analysis across 100K+ retail supermarket receipts to discover product bundling opportunities and optimize merchandising layout.',
-    tags: ['Python', 'Pandas', 'Apriori', 'Statistical EDA', 'Matplotlib'],
+      'A phishing URL detection system built with MiniLM, BiLSTM, and Transformer-based deep learning architectures. Integrated with FastAPI and optimized inference via ONNX for real-time URL threat classification and low-latency prediction.',
+    tags: ['Python', 'Transformers', 'MiniLM', 'BiLSTM', 'FastAPI', 'ONNX'],
     liveUrl: 'https://github.com/nerellapavithra2005-prog',
-    codeUrl: 'https://github.com/nerellapavithra2005-prog/market-basket-insights',
+    codeUrl: 'https://github.com/nerellapavithra2005-prog',
   },
   {
     id: 'project-3',
-    title: 'FinGuard Fraud Detection Telemetry',
+    title: 'Enterprise Analytics & BI Dashboard',
     year: '2025',
     description:
-      'End-to-end relational data model and alerting dashboard flagging fraudulent credit card transactions through behavioral anomaly scoring and parameter sensitivity testing.',
-    tags: ['PostgreSQL', 'Python', 'Tableau', 'Anomaly Detection', 'ETL'],
+      'End-to-end data analytics and business intelligence solution created during TAP Academy placement training. Uses MySQL for structured extraction, Python for cleansing and aggregation, and Power BI & Excel for executive insight reports.',
+    tags: ['Python', 'MySQL', 'Power BI', 'Excel', 'Pandas', 'NumPy'],
     liveUrl: 'https://github.com/nerellapavithra2005-prog',
-    codeUrl: 'https://github.com/nerellapavithra2005-prog/fraud-detection-telemetry',
-  },
-  {
-    id: 'project-4',
-    title: 'AeroSupply Global Logistics Tracker',
-    year: '2025',
-    description:
-      'Supply chain delay prediction dashboard monitoring shipping bottleneck routes, carrier reliability scores, and on-time shipment fulfillment benchmarks.',
-    tags: ['SQL', 'Advanced Excel', 'Power BI', 'KPI Scorecards'],
-    liveUrl: 'https://github.com/nerellapavithra2005-prog',
-    codeUrl: 'https://github.com/nerellapavithra2005-prog/logistics-delay-tracker',
+    codeUrl: 'https://github.com/nerellapavithra2005-prog',
   },
 ]
 
 export const socialLinks = [
   { label: 'GitHub', url: 'https://github.com/nerellapavithra2005-prog' },
-  { label: 'LinkedIn', url: 'https://linkedin.com' },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/nerella-pavithra-73310b306' },
   { label: 'Instagram', url: '' },
 ]
 
 export const contactContent = {
   label: '04 / Contact',
-  heading: 'Let’s build something data-driven together.',
-  note: 'Looking for a dedicated Data Analyst to turn complex data into strategic growth? My inbox is always open for opportunities and conversations.',
+  heading: 'Let’s build something impactful together.',
+  note: 'Available for entry-level Data Analyst and Software Engineering opportunities. Reach out via email, phone, or the terminal form below.',
 }
 
 export const emailjsConfig = {
@@ -119,18 +109,34 @@ export const emailjsConfig = {
 export const journeySteps = [
   {
     period: '2025 — PRESENT',
-    role: 'Full-Stack Data Analytics & Placement Trainee',
+    role: 'Data Analytics with AI Trainee',
     organization: 'TAP Academy',
     location: 'Bangalore, India',
     description:
-      'Comprehensive placement training covering relational database architecture, advanced SQL querying, Python data science pipelines, and interactive Power BI business dashboards.',
+      'Practical training in Python, MySQL, Excel, and Power BI for data analysis and visualization. Hands-on exploratory data analysis with Pandas and NumPy, SQL extraction, and building interactive business intelligence reports.',
   },
   {
-    period: '2021 — 2025',
-    role: 'Bachelor of Technology',
-    organization: 'Undergraduate Studies',
-    location: 'India',
+    period: '2023 — 2026',
+    role: 'Bachelor of Engineering (B.E.) — CGPA: 8.26',
+    organization: 'Gokaraju Lailavathi Womens Engineering College',
+    location: 'Hyderabad, Telangana',
     description:
-      'Core foundation in computer systems, relational database management, data structures, and statistical modeling.',
+      'Undergraduate engineering curriculum emphasizing software development, data structures, database management systems, and deep learning architectures.',
+  },
+  {
+    period: '2020 — 2023',
+    role: 'Diploma in Engineering — CGPA: 7.73',
+    organization: 'SMT Durgabai Deshmukh Govt Womens Technical Training Institute',
+    location: 'Hyderabad, Telangana',
+    description:
+      'Technical diploma covering core engineering fundamentals, algorithms, system programming, and practical lab assignments.',
+  },
+  {
+    period: '2020',
+    role: 'Secondary School Certificate (SSC) — CGPA: 9.5',
+    organization: 'KGB Vidyalayam',
+    location: 'Karimnagar, Telangana',
+    description:
+      'Secondary school education with high academic distinction across mathematics, physical sciences, and computer foundations.',
   },
 ]
