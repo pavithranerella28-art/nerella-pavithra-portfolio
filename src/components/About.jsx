@@ -96,7 +96,7 @@ export default function About() {
             {portraitSrc ? (
               <img
                 src={portraitSrc}
-                alt={`${personalInfo.name} — ${personalInfo.role}`}
+                alt="Nerella Pavithra — Data Analyst, TAP Academy student"
                 className="w-full h-full object-cover grayscale contrast-125"
               />
             ) : (
