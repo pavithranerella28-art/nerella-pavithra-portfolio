@@ -12,6 +12,18 @@ export const academy = {
   url: 'https://thetapacademy.com/',
 }
 
+export const navLinks = [
+  { label: 'Home', href: '#home' },
+  { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Journey', href: '#journey' },
+  { label: 'Contact', href: '#contact' },
+]
+
+export const footerContent = {
+  tagline: 'Signal HUD Edition · All Rights Reserved',
+}
+
 export const aboutContent = {
   label: '01 / About',
   heading: 'Transforming complex raw data into clear, decisive business intelligence.',
